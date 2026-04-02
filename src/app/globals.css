@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #FAF9F7;
+  --bg-secondary: #F5F4F0;
+  --bg-tertiary: #EEECEA;
+  --bg-card: #FFFFFF;
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B6560;
+  --text-tertiary: #9B958F;
+  --border: #E5E2DD;
+  --border-hover: #D5D1CC;
+  --accent: #C96442;
+  --accent-hover: #B5573A;
+  --accent-light: #FDF2EE;
+  --success: #3D8B5F;
+  --success-light: #EDF7F1;
+  --danger: #C44B3F;
+  --danger-light: #FDF0EF;
+  --tag-verb: #92602C;
+  --tag-noun: #3B6CB5;
+  --tag-adj: #7048A6;
+  --tag-phrase: #2E7D5E;
+  --tag-idiom: #B03A3A;
+  --tag-adverb: #1A7A8A;
+  --tag-conj: #6B6B6B;
+  --tag-vonzat: #A0306B;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Söhne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection { background: var(--accent-light); color: var(--accent); }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-hover); }
+
+*:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+button, a, input, select, textarea { transition: all 0.15s ease; }
+input, select, textarea { font-family: inherit; }
