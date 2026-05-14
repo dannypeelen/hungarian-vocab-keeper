@@ -846,16 +846,14 @@ export const SEED_CARDS: VocabCard[] = [
   fr('avoir besoin de', 'to need', ['phrase', 'verb'], 'J\'ai besoin d\'aide.', 'I need help.'),
   fr('avoir l\'air + adjectif', 'to seem / look + adjective', ['phrase', 'verb'], 'Tu as l\'air fatigué.', 'You look tired.'),
   fr('Qu\'est-ce qui se passe?', 'What\'s going on / happening?', ['phrase'], 'Tout le monde crie — qu\'est-ce qui se passe?', 'Everyone is shouting — what\'s going on?'),
-  fr('genre', 'like / kinda', ['phrase'], '', '')
-  fr('du coup', 'so / therefore', ['phrase'], '', '')
-  fr('je suis crevé', 'im exhausted', ['phrase'], '', '')
-  fr('n\'importe quoi', 'nonsense / whatever', ['phrase'], '', '')
-  fr('je suis crevé', 'im exhausted', ['phrase'], '', '')
-  fr('ca ma saoule', 'that annoys me', ['phrase'], '', '')
-  fr('t\'inquiete', 'dont worry', ['phrase'], '', '')
-  fr('vas-y', 'go ahead / come on', ['phrase'], '', '')
-  fr('j\'avoue', 'honestly / true', ['phrase'], '', '')
-  fr('carrement', 'totally / absolutely', ['phrase'], '', '')
+  fr('genre', '"like" / "kinda" / "sort of" (colloquial filler)', ['adverb', 'phrase'], 'C\'était genre super bizarre.', 'It was like, super weird.', 'Youth/informal speech filler; same function as English "like". Universally understood, slightly stigmatised in formal contexts.'),
+  fr('du coup', 'so / as a result / therefore (colloquial)', ['adverb', 'conjunction'], 'Il a raté son train, du coup il est arrivé en retard.', 'He missed his train, so he arrived late.', 'Extremely common in spoken French — overused but unavoidable. More casual than "donc" or "par conséquent".'),
+  fr('je suis crevé(e)', 'I\'m exhausted / I\'m shattered', ['phrase'], 'Je suis complètement crevé — je vais me coucher.', 'I\'m completely shattered — I\'m going to bed.', 'Very colloquial; "crevé" lit. means punctured/burst. Neutral register in everyday speech.'),
+  fr('ça m\'a saoulé(e)', 'it bored me to tears / it drove me mad', ['phrase'], 'Cette réunion de trois heures m\'a complètement saoulé.', 'That three-hour meeting bored me to tears.', 'Colloquial; lit. "it got me drunk". Can mean annoyed or bored depending on context.'),
+  fr('t\'inquiète (pas)', 'don\'t worry (colloquial)', ['phrase'], 'T\'inquiète, je gère.', 'Don\'t worry, I\'ve got it.', 'Colloquial contraction of "ne t\'inquiète pas". The "pas" is often dropped in speech.'),
+  fr('vas-y', 'go ahead / come on / go for it', ['phrase'], 'Tu veux parler en premier? Vas-y.', 'You want to speak first? Go ahead.', 'Imperative of "aller" + "y". Also used as an encouragement: "vas-y, tu peux le faire!"'),
+  fr('j\'avoue', 'honestly / I\'ll be honest / fair enough / true', ['phrase'], 'J\'avoue, j\'aurais pu mieux faire.', 'Honestly, I could have done better.', 'Originally "I admit", now widely used as a filler meaning "to be fair / I\'ll grant you that". Very current in youth speech.'),
+  fr('carrément', 'totally / absolutely / straight-up / full-on', ['adverb'], 'C\'était carrément nul. / Il lui a dit carrément ce qu\'il pensait.', 'It was absolutely awful. / He told her straight out what he thought.', 'Colloquial intensifier; also means "bluntly/straight out" when describing direct speech.'),
   
 
   // ══════════════════════════════════════════════════════════

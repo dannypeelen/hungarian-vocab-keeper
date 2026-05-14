@@ -151,18 +151,15 @@ type AllStats = Record<Language, AppStats>;
 // HOME
 // ═════════════════════════════════════════════════════════════
 export default function Home() {
-  const [allCards, setAllCards] = useState<AllCards>({ hungarian: [], french: [], italian: [] });
-  const [allStats, setAllStats] = useState<AllStats>({ hungarian: defaultStats(), french: defaultStats(), italian: defaultStats() });
+  const [allCards, setAllCards] = useState<AllCards>(() => {
+    migrateIfNeeded();
+    return { hungarian: loadCards('hungarian'), french: loadCards('french'), italian: loadCards('italian') };
+  });
+  const [allStats, setAllStats] = useState<AllStats>(() => ({
+    hungarian: loadStats('hungarian'), french: loadStats('french'), italian: loadStats('italian'),
+  }));
   const [language, setLanguage] = useState<Language>('hungarian');
   const [view, setView] = useState<View>('review');
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    migrateIfNeeded();
-    setAllCards({ hungarian: loadCards('hungarian'), french: loadCards('french'), italian: loadCards('italian') });
-    setAllStats({ hungarian: loadStats('hungarian'), french: loadStats('french'), italian: loadStats('italian') });
-    setLoaded(true);
-  }, []);
 
   const updateCards = useCallback((lang: Language, fn: (prev: VocabCard[]) => VocabCard[]) => {
     setAllCards(prev => {
@@ -180,17 +177,7 @@ export default function Home() {
     });
   }, []);
 
-  if (!loaded) {
-    return (
-      <div className="min-h-screen flex items-center justify-center" style={{ background: 'var(--bg-primary)' }}>
-        <p style={{ color: 'var(--text-tertiary)' }}>Loading…</p>
-      </div>
-    );
-  }
-
   const cards = allCards[language];
-  const stats = allStats[language];
-  const meta = LANGUAGE_META[language];
   const totalAll = LANGUAGES.reduce((s, l) => s + allCards[l].length, 0);
 
   return (
@@ -361,7 +348,7 @@ function CardRow({ card, onEdit, onDelete }: { card: VocabCard; onEdit: () => vo
         <div className="mt-3 pt-3 border-t" style={{ borderColor: 'var(--border)' }}>
           {card.example && (
             <div className="mb-2">
-              <p className="text-sm italic" style={{ color: 'var(--text-primary)' }}>„{card.example}"</p>
+              <p className="text-sm italic" style={{ color: 'var(--text-primary)' }}>{'„'}{card.example}{'"'}</p>
               {card.exampleTranslation && (
                 <p className="text-xs mt-0.5" style={{ color: 'var(--text-tertiary)' }}>{card.exampleTranslation}</p>
               )}
@@ -600,6 +587,7 @@ function ReviewView({ cards, language, updateCards, updateStats }: {
   }, [session, show, done, answer]);
 
   // Reset session when language changes
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { setSession(null); setDone(false); }, [language]);
 
   // ── Setup ──
@@ -704,7 +692,7 @@ function ReviewView({ cards, language, updateCards, updateStats }: {
               <p className="text-xl font-semibold mb-2" style={{ color: meta.color }}>{card.targetWord}</p>
               {card.example && (
                 <div className="mt-2">
-                  <p className="text-sm italic" style={{ color: 'var(--text-secondary)' }}>„{card.example}"</p>
+                  <p className="text-sm italic" style={{ color: 'var(--text-secondary)' }}>{'„'}{card.example}{'"'}</p>
                   {card.exampleTranslation && (
                     <p className="text-xs mt-1" style={{ color: 'var(--text-tertiary)' }}>{card.exampleTranslation}</p>
                   )}
