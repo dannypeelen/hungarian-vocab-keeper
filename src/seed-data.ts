@@ -846,6 +846,17 @@ export const SEED_CARDS: VocabCard[] = [
   fr('avoir besoin de', 'to need', ['phrase', 'verb'], 'J\'ai besoin d\'aide.', 'I need help.'),
   fr('avoir l\'air + adjectif', 'to seem / look + adjective', ['phrase', 'verb'], 'Tu as l\'air fatigué.', 'You look tired.'),
   fr('Qu\'est-ce qui se passe?', 'What\'s going on / happening?', ['phrase'], 'Tout le monde crie — qu\'est-ce qui se passe?', 'Everyone is shouting — what\'s going on?'),
+  fr('genre', 'like / kinda', ['phrase'], '', '')
+  fr('du coup', 'so / therefore', ['phrase'], '', '')
+  fr('je suis crevé', 'im exhausted', ['phrase'], '', '')
+  fr('n\'importe quoi', 'nonsense / whatever', ['phrase'], '', '')
+  fr('je suis crevé', 'im exhausted', ['phrase'], '', '')
+  fr('ca ma saoule', 'that annoys me', ['phrase'], '', '')
+  fr('t\'inquiete', 'dont worry', ['phrase'], '', '')
+  fr('vas-y', 'go ahead / come on', ['phrase'], '', '')
+  fr('j\'avoue', 'honestly / true', ['phrase'], '', '')
+  fr('carrement', 'totally / absolutely', ['phrase'], '', '')
+  
 
   // ══════════════════════════════════════════════════════════
   // FRENCH — COMMON PHRASES & EXPRESSIONS (30)
