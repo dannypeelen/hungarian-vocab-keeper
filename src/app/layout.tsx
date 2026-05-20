@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Szókincs — Hungarian Vocab Keeper",
-  description: "A minimalist flashcard app for advanced Hungarian vocabulary",
+  title: "Vocab Keeper",
+  description: "A minimalist flashcard app for Hungarian, French, and Italian vocabulary",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
