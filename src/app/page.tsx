@@ -39,13 +39,19 @@ function migrateIfNeeded() {
 
 function loadCards(lang: Language): VocabCard[] {
   if (typeof window === 'undefined') return [];
+  const seedCards = SEED_CARDS.filter(c => c.language === lang);
   const raw = localStorage.getItem(CARD_KEY(lang));
   if (!raw) {
-    const seed = SEED_CARDS.filter(c => c.language === lang);
-    localStorage.setItem(CARD_KEY(lang), JSON.stringify(seed));
-    return seed;
+    localStorage.setItem(CARD_KEY(lang), JSON.stringify(seedCards));
+    return seedCards;
   }
-  return JSON.parse(raw);
+  const stored: VocabCard[] = JSON.parse(raw);
+  const storedWords = new Set(stored.map(c => c.targetWord));
+  const newCards = seedCards.filter(c => !storedWords.has(c.targetWord));
+  if (newCards.length === 0) return stored;
+  const merged = [...stored, ...newCards];
+  localStorage.setItem(CARD_KEY(lang), JSON.stringify(merged));
+  return merged;
 }
 
 function saveCards(lang: Language, cards: VocabCard[]) {
