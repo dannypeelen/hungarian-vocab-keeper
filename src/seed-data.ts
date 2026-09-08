@@ -347,55 +347,24 @@ export const SEED_CARDS: VocabCard[] = [
   // ══════════════════════════════════════════════════════════
   // HUNGARIAN NEW — CONVERSATIONAL PHRASES (30 new)
   // ══════════════════════════════════════════════════════════
-  hu('Minden rendben.', 'Everything is fine. / All good.', ['phrase'], 'Aggódsz? Minden rendben van.', 'You\'re worried? Everything is fine.'),
-  hu('Szóval...', 'So... / Well...', ['phrase', 'conjunction'], 'Szóval, mit gondolsz erről?', 'So, what do you think about this?'),
-  hu('Tudod mit?', 'You know what?', ['phrase'], 'Tudod mit? Inkább maradjunk itthon.', 'You know what? Let\'s stay home instead.'),
-  hu('Pontosan!', 'Exactly! / Precisely!', ['phrase'], 'Pontosan erről van szó!', 'That\'s exactly what it\'s about!'),
-  hu('Igazad van.', 'You are right.', ['phrase'], 'Igazad van, jobban kellett volna figyelni.', 'You are right, I should have paid more attention.'),
-  hu('Teljesen igaz.', 'Absolutely true. / Completely right.', ['phrase'], 'Teljesen igaz, amit mondasz.', 'What you\'re saying is absolutely true.'),
-  hu('Mi a helyzet?', 'What\'s the situation? / What\'s up?', ['phrase'], 'Mi a helyzet a projekttel?', 'What\'s the situation with the project?'),
   hu('Hogy áll a dolog?', 'How are things going? / How\'s it going?', ['phrase'], 'Hogy áll a dolog a vizsgával?', 'How are things going with the exam?'),
   hu('Lassan, de biztosan.', 'Slowly but surely.', ['phrase'], 'Lassan, de biztosan haladunk előre.', 'We\'re moving forward slowly but surely.'),
   hu('Majd elválik.', 'We\'ll see. / Time will tell.', ['phrase'], 'Sikerül? Majd elválik.', 'Will it work? Time will tell.'),
   hu('Ne aggódj!', 'Don\'t worry!', ['phrase'], 'Ne aggódj, megoldjuk!', 'Don\'t worry, we\'ll sort it out!'),
   hu('Eltúlzod.', 'You\'re exaggerating.', ['phrase'], 'Eltúlzod a dolgot, nem is olyan rossz.', 'You\'re exaggerating, it\'s not that bad.'),
-  hu('Mit gondolsz?', 'What do you think?', ['phrase'], 'Mit gondolsz erről az ötletről?', 'What do you think about this idea?'),
-  hu('Ez jó ötlet!', 'That\'s a good idea!', ['phrase'], 'Menjünk moziba — ez jó ötlet!', 'Let\'s go to the cinema — that\'s a good idea!'),
-  hu('Nem rossz.', 'Not bad.', ['phrase'], 'Az eredmény? Nem rossz.', 'The result? Not bad.'),
   hu('Semmi különös.', 'Nothing special.', ['phrase'], 'Mi újság? Semmi különös.', 'What\'s new? Nothing special.'),
-  hu('Hogy ne!', 'Yeah right! / As if!', ['phrase'], 'Ő segít? Hogy ne!', 'He\'ll help? Yeah right!', 'Sarcastic/ironic'),
-  hu('Csak viccelem.', 'I\'m just joking.', ['phrase'], 'Ne vedd komolyan, csak viccelem.', 'Don\'t take it seriously, I\'m just joking.'),
   hu('Komolyan mondom!', 'I\'m being serious! / I mean it!', ['phrase'], 'Komolyan mondom, gondolkozz el rajta.', 'I\'m serious, think about it.'),
   hu('Kicsit sem zavar.', 'It doesn\'t bother me at all.', ['phrase'], 'A zaj? Kicsit sem zavar.', 'The noise? It doesn\'t bother me at all.'),
   hu('Érdemes megszívlelni.', 'Worth taking to heart. / Worth heeding.', ['phrase'], 'Ez egy bölcs tanács, érdemes megszívlelni.', 'This is wise advice, worth taking to heart.'),
   hu('Közel jár az igazsághoz.', 'Close to the truth.', ['phrase'], 'A feltételezése közel jár az igazsághoz.', 'Her assumption is close to the truth.'),
-  hu('Vigyázz magadra!', 'Take care of yourself!', ['phrase'], 'Vigyázz magadra, viszontlátásra!', 'Take care of yourself, goodbye!'),
-  hu('Sok szerencsét!', 'Good luck!', ['phrase'], 'Sok szerencsét a vizsgához!', 'Good luck on your exam!'),
-  hu('Hajrá!', 'Go for it! / Come on! / You can do it!', ['phrase'], 'Hajrá, sikerülni fog!', 'Go for it, you\'ll make it!'),
-  hu('Szép napot!', 'Have a nice day!', ['phrase'], 'Köszönöm, szép napot kívánok!', 'Thank you, have a nice day!'),
-  hu('Mindjárt jövök.', 'I\'ll be right back.', ['phrase'], 'Mindjárt jövök, egy pillanat.', 'I\'ll be right back, just a moment.'),
-  hu('Egy pillanat!', 'Just a moment! / One second!', ['phrase'], 'Egy pillanat, befejezem.', 'Just a moment, I\'ll finish up.'),
   hu('Úgy látom...', 'As I see it... / It seems to me...', ['phrase'], 'Úgy látom, a helyzet javult.', 'As I see it, the situation has improved.'),
-  hu('Ha jól értem...', 'If I understand correctly...', ['phrase'], 'Ha jól értem, holnapra kell elkészülni.', 'If I understand correctly, it needs to be done by tomorrow.'),
 
   // ══════════════════════════════════════════════════════════
   // HUNGARIAN NEW — EVERYDAY VERBS (15 new)
   // ══════════════════════════════════════════════════════════
-  hu('sétál', 'to walk / stroll', ['verb'], 'Minden reggel sétál a parkban.', 'She walks in the park every morning.'),
-  hu('fut', 'to run', ['verb'], 'Fut, hogy ne késsen el.', 'He runs so as not to be late.'),
-  hu('mosolyog', 'to smile', ['verb'], 'Mindig mosolyog.', 'She always smiles.'),
-  hu('nevet', 'to laugh', ['verb'], 'Hangosan nevetett a tréfán.', 'He laughed loudly at the joke.'),
-  hu('sír', 'to cry / weep', ['verb'], 'Sír az örömtől.', 'She is crying with joy.'),
   hu('kiabál', 'to shout / yell', ['verb'], 'Ne kiabálj, megértelek!', 'Don\'t shout, I can hear you!'),
   hu('suttog', 'to whisper', ['verb'], 'Suttogva mesélte el a titkot.', 'She whispered the secret.'),
-  hu('hallgat', 'to listen / to keep silent', ['verb'], 'Hallgat, nem szól semmit.', 'He keeps silent, says nothing.', 'Context determines meaning: listen vs. be silent'),
-  hu('dönt', 'to decide / make a decision', ['verb'], 'Gyorsan döntött.', 'She decided quickly.'),
-  hu('vár', 'to wait / to expect', ['verb'], 'Vár a busz megállójában.', 'He waits at the bus stop.'),
-  hu('siet', 'to hurry / rush', ['verb'], 'Sietek, mert késő van.', 'I\'m hurrying because it\'s late.'),
-  hu('segít', 'to help', ['verb'], 'Segít a barátjának a költözéssel.', 'She helps her friend with moving.'),
-  hu('elad', 'to sell', ['verb'], 'Eladta a régi autóját.', 'He sold his old car.'),
   hu('meggondolja magát', 'to change one\'s mind', ['verb', 'phrase'], 'Az utolsó pillanatban meggondolta magát.', 'At the last moment she changed her mind.'),
-  hu('magyaráz', 'to explain', ['verb'], 'Türelmesen magyarázza el a feladatot.', 'He patiently explains the task.'),
 
   // ══════════════════════════════════════════════════════════
   // HUNGARIAN — ACADEMIC POSTPOSITIONAL PHRASE STRUCTURES
@@ -660,6 +629,143 @@ export const SEED_CARDS: VocabCard[] = [
   hu('izgalmas', 'exciting / fascinating / thrilling', ['adjective'], 'Izgalmas kérdés, amelyre nincs egyszerű válasz.', 'A fascinating question with no easy answer.'),
   hu('unalmas', 'boring / dull / tedious', ['adjective'], 'Unalmas vita, amelyből semmi sem következik.', 'A tedious debate that leads nowhere.'),
   hu('kapzsi', 'greedy / avaricious / grasping', ['adjective'], 'Kapzsi érdekek húzódnak a döntés mögött.', 'Greedy interests lie behind the decision.'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL/BESZÉLT: HIGH-FREQUENCY SPOKEN VERBS
+  // ══════════════════════════════════════════════════════════
+  hu('bejön (vkinek)', 'to appeal to, to like', ['verb', 'vonzat'], 'Bejön ez a hely.', 'I like this place.', '[beszélt] Also romantic: "Bejön az a csaj." = I\'m into that girl.'),
+  hu('összejön', 'to work out; to get together (romantically)', ['verb'], 'Nem jött össze.', 'It didn\'t work out.', '[beszélt] "Összejöttek." = They got together.'),
+  hu('belefér', 'there\'s room for it (time/budget/patience)', ['verb'], 'Belefér egy sör?', 'Is there time for a beer?', '[beszélt]'),
+  hu('megoldom', 'I\'ve got it, I\'ll handle it', ['verb'], 'Megoldom.', 'I\'ve got it.', '[beszélt] Extremely common — replaces a whole paragraph of explanation.'),
+  hu('lezavar', 'to knock out a task fast', ['verb'], 'Lezavarom a beadandót ma este.', 'I\'ll knock out the assignment tonight.', '[szleng]'),
+  hu('összedob', 'to throw together', ['verb'], 'Összedobok valamit vacsira.', 'I\'ll throw something together for dinner.', '[beszélt]'),
+  hu('benéz (vmit)', 'to misjudge, to screw up a read on something', ['verb', 'vonzat'], 'Benéztem a ZH-t.', 'I misread the test / I blew it.', '[szleng]'),
+  hu('elszúr', 'to mess up', ['verb'], 'Elszúrtam.', 'I messed up.', '[beszélt] Milder near-synonym "elcsesz" is mildly vulgar.'),
+  hu('kiakad', 'to freak out', ['verb'], 'Teljesen kiakadt.', 'He totally freaked out.', '[beszélt]'),
+  hu('kikészül', 'to be wrecked, to lose it', ['verb'], 'Kikészültem.', 'I\'m wrecked.', '[beszélt]'),
+  hu('ki van (vki)', 'to be done in, fed up, exhausted', ['phrase'], 'Ki vagyok.', 'I\'m cooked.', '[beszélt] Very high-frequency complaint.'),
+  hu('besokall', 'to hit one\'s limit', ['verb'], 'Besokalltam.', 'I hit my limit.', '[beszélt]'),
+  hu('lelép', 'to split, to bail', ['verb'], 'Lelépek.', 'I\'m off.', '[beszélt] Also "lelécel".'),
+  hu('elhúz (innen)', 'to clear off, to get out of somewhere', ['verb'], 'Húzzunk innen.', 'Let\'s get out of here.', '[beszélt]'),
+  hu('lóg', 'to hang out; to skip class', ['verb'], 'Lógtam az előadásról.', 'I skipped the lecture.', '[beszélt] "Lógunk egyet?" = Want to hang out?'),
+  hu('nyomjuk!', 'let\'s go / keep at it', ['phrase'], 'Nyomjuk!', 'Let\'s go!', '[beszélt] Also shouted on the volleyball court.'),
+  hu('rányomul (vkire)', 'to hit on someone; to push aggressively', ['verb', 'vonzat'], 'Rányomult a csajra.', 'He hit hard on the girl.', '[szleng]'),
+  hu('rákattan (vmire)', 'to get hooked on something', ['verb', 'vonzat'], 'Rákattantam egy sorozatra.', 'I got hooked on a series.', '[beszélt]'),
+  hu('lehúz (vkit)', 'to rip someone off', ['verb', 'vonzat'], 'Lehúztak a taxisok.', 'The taxi drivers ripped me off.', '[beszélt]'),
+  hu('megvág (vkit vmennyivel)', 'to hit someone up for money / overcharge', ['verb', 'vonzat'], 'Megvágtak öt rugóval.', 'They hit me up for five thousand forints.', '[szleng] "rugó" = 1,000 Ft, see below.'),
+  hu('beugrik', 'to drop by; also "it just came to me"', ['verb'], 'Beugrom hozzád.', 'I\'ll drop by your place.', '[beszélt] "Beugrott a neve." = His name just came to me.'),
+  hu('átdob / átküld', 'to send something over', ['verb'], 'Átdobod a jegyzetet?', 'Can you send over the notes?', '[beszélt]'),
+  hu('ráír (vkire)', 'to message someone', ['verb', 'vonzat'], 'Ráírok.', 'I\'ll message him.', '[beszélt]'),
+  hu('szól (vkinek)', 'to give someone a heads-up', ['verb', 'vonzat'], 'Szólj, ha ráérsz.', 'Let me know when you\'re free.', '[beszélt]'),
+  hu('dumál', 'to chat', ['verb'], 'Majd dumálunk.', 'We\'ll talk later.', '[beszélt]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL/BESZÉLT: EATING, DRINKING, GOING OUT
+  // ══════════════════════════════════════════════════════════
+  hu('kajál', 'to eat', ['verb'], 'Kajálunk valamit?', 'Shall we grab something to eat?', '[beszélt]'),
+  hu('betol / benyom', 'to put away (food, a whole series)', ['verb'], 'Betoltam egy egész pizzát.', 'I put away a whole pizza.', '[szleng] Also: "Betoltam a szezont egy nap alatt." = I binged the whole season in a day.'),
+  hu('piál', 'to drink (alcohol)', ['verb'], 'Piálunk ma?', 'Are we drinking tonight?', '[beszélt/szleng] Safer, more neutral options: "sörözik / borozik / kocsmázik".'),
+  hu('berúg', 'to get drunk', ['verb'], 'Berúgtam.', 'I got drunk.', '[beszélt] Milder: "becsíp" = to get tipsy.'),
+  hu('másnapos', 'hungover', ['adjective'], 'Nagyon másnapos vagyok.', 'I\'m really hungover.', '[beszélt]'),
+  hu('kimozdul', 'to go out (of the house)', ['verb'], 'Kimozdulunk ma este?', 'Are we going out tonight?', '[beszélt]'),
+  hu('elszáll (a szerver)', 'to crash, go down (of a server)', ['verb'], 'Elszállt a szerver.', 'The server crashed.', '[szleng, tech]'),
+  hu('lekérdez', 'to query (a database)', ['verb'], 'Lekérdezzük az adatokat.', 'We\'ll query the data.', '[semleges, tech]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — EGYETEM: BME ADMIN & COURSE VOCAB
+  // ══════════════════════════════════════════════════════════
+  hu('ZH (zárthelyi dolgozat)', 'in-semester midterm test', ['noun'], 'Van ZH-nk kedden.', 'We have a midterm on Tuesday.', 'Pronounced "zéhá." Passing it is usually required to sit the exam or get a megajánlott jegy.'),
+  hu('UV (utóvizsga)', 'retake exam', ['noun'], 'UV-znom kell ebből a tárgyból.', 'I have to retake this course\'s exam.', 'Needed if you scored below 2 in the normal exam period.'),
+  hu('beadandó', 'assignment, project to hand in', ['noun'], 'Le kell adnom a beadandót péntekig.', 'I have to hand in the assignment by Friday.'),
+  hu('gyakorlat / gyak', 'seminar, practice session', ['noun'], 'Ma van gyakorlatunk.', 'We have a seminar today.'),
+  hu('aláírás', 'the semester sign-off required to sit the exam', ['noun'], 'Még nincs meg az aláírásom ebből a tárgyból.', 'I still haven\'t got my sign-off for this course.'),
+  hu('megajánlott jegy', 'grade offered without sitting the exam', ['noun', 'phrase'], 'Kaptam megajánlott jegyet a ZH-k alapján.', 'I got an offered grade based on the midterms.'),
+  hu('tankör', 'assigned study group', ['noun'], 'A tankörünk pénteken találkozik.', 'Our study group meets on Friday.', '"tankörvezető" = the upperclassman who leads it.'),
+  hu('szorgalmi időszak', 'the in-term teaching period (~12 weeks)', ['noun', 'phrase'], 'A szorgalmi időszak vége felé közeledünk.', 'We\'re nearing the end of the term.', 'Runs from registration to the exam period; the vizsgaidőszak follows.'),
+  hu('gólya', 'freshman', ['noun'], 'Én is gólya vagyok idén.', 'I\'m also a freshman this year.', '"gólyatábor" = freshman camp, "gólyabál" = freshers\' ball.'),
+  hu('felveszi (a tárgyat)', 'to take, register for a course', ['verb', 'vonzat'], 'Felvettem az AI-t.', 'I took the AI course.'),
+  hu('leadja (a tárgyat)', 'to drop a course', ['verb', 'vonzat'], 'Leadtam a képfeldolgozást.', 'I dropped image processing.'),
+  hu('elhasal / megbukik', 'to flunk', ['verb'], 'Elhasaltam a vizsgán.', 'I flunked the exam.'),
+  hu('átcsúszik', 'to scrape through', ['verb'], 'Éppen átcsúsztam.', 'I just barely scraped through.', '[beszélt]'),
+  hu('puskázik', 'to cheat (on a test)', ['verb'], 'Ne puskázz a ZH-n!', 'Don\'t cheat on the test!', '[beszélt]'),
+  hu('magol / bemagol', 'to cram', ['verb'], 'Egész éjjel magoltam.', 'I crammed all night.', '[beszélt]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: PEOPLE (register + the biggest trap)
+  // ══════════════════════════════════════════════════════════
+  hu('csávó', 'guy, dude (third person)', ['noun'], 'Az a csávó ott.', 'That guy over there.', '[szleng]'),
+  hu('csaj', 'girl, woman (peer register)', ['noun'], 'Az a csaj a csoportból.', 'That girl from the group.', '[beszélt/szleng] Fine among peers, not for a professor.'),
+  hu('srác / srácok', 'guy(s); "you guys"', ['noun'], 'Sziasztok, srácok!', 'Hey, guys!', '[beszélt]'),
+  hu('pasi', 'guy, man (often a romantic interest)', ['noun'], 'Van egy pasija.', 'She has a guy she\'s seeing.', '[beszélt]'),
+  hu('öreg', 'man (vocative among male peers)', ['noun'], 'Öreg, ez brutál!', 'Man, that\'s insane!', '[szleng, male-marked]'),
+  hu('gyökér / balfék', 'idiot, useless one', ['noun'], 'Ne már, gyökér!', 'Come on, idiot!', '[szleng] Mild-to-medium insult.'),
+  hu('kolis / szobatárs / lakótárs', 'dorm-dweller / roommate / flatmate', ['noun'], 'A szobatársam BME-s.', 'My roommate is a BME student.', '[beszélt]'),
+  hu('évfolyamtárs / csoporttárs', 'classmate, coursemate', ['noun'], 'Ő az évfolyamtársam.', 'He\'s my classmate.', '[semleges]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: THINGS & PLACES
+  // ══════════════════════════════════════════════════════════
+  hu('cucc', 'stuff, things', ['noun'], 'Hozd a cuccaidat.', 'Bring your stuff.', '[beszélt]'),
+  hu('kaja', 'food', ['noun'], 'Van otthon kaja?', 'Is there food at home?', '[beszélt]'),
+  hu('pia', 'booze, alcohol', ['noun'], 'Veszünk piát a bulira?', 'Should we buy booze for the party?', '[beszélt]'),
+  hu('meló', 'work, job', ['noun'], 'Sok a melóm mostanában.', 'I have a lot of work lately.', '[beszélt]'),
+  hu('suli', 'school, uni', ['noun'], 'Most jövök a suliból.', 'I\'m just coming from uni.', '[beszélt] "-i clipping" of "iskola."'),
+  hu('koli', 'dorm', ['noun'], 'A koliban lakom.', 'I live in the dorm.', '[beszélt] Clipped from "kollégium."'),
+  hu('albi', 'rented flat', ['noun'], 'Albiban lakunk hárman.', 'The three of us live in a rented flat.', '[beszélt] Clipped from "albérlet."'),
+  hu('zsé / lóvé', 'money', ['noun'], 'Nincs zsém.', 'I\'m broke.', '[szleng]'),
+  hu('rugó', 'a thousand forints', ['noun'], 'Öt rugóba került.', 'It cost five thousand forints.', '[szleng] "öt rugó" = 5,000 Ft.'),
+  hu('buli', 'party', ['noun'], 'Jössz a bulira?', 'Are you coming to the party?', '[beszélt]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: ADJECTIVES, POSITIVE
+  // ══════════════════════════════════════════════════════════
+  hu('jó fej', 'decent, sound, a good sort (of a person)', ['adjective', 'phrase'], 'Nagyon jó fej a tanárunk.', 'Our teacher is a really sound person.', '[beszélt] Evergreen, zero risk.'),
+  hu('tök jó', 'really good', ['adjective', 'phrase'], 'Ez tök jó volt.', 'That was really good.', '[beszélt] The workhorse positive adjective.'),
+  hu('durva', 'intense, wild — works for both good and bad', ['adjective'], 'Ez durva.', 'That\'s intense.', '[beszélt] Context decides the valence.'),
+  hu('brutál / brutális', 'massive, insane (positive)', ['adjective'], 'Brutál jó volt.', 'It was insanely good.', '[beszélt/szleng]'),
+  hu('tuti', 'certain, reliable, for sure', ['adjective', 'adverb'], 'Tuti, hogy jön.', 'He\'s definitely coming.', '[beszélt]'),
+  hu('penge', 'sharp, excellent (of a person\'s skill)', ['adjective'], 'Penge vagy ebben!', 'You\'re sharp at this!', '[szleng]'),
+  hu('állat', 'awesome (as adjective or interjection)', ['adjective'], 'Állat volt a koncert!', 'The concert was awesome!', '[szleng]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: ADJECTIVES, NEGATIVE
+  // ══════════════════════════════════════════════════════════
+  hu('gáz', 'bad, awkward, a problem', ['adjective', 'noun'], 'Nagy gáz van.', 'There\'s a big problem.', '[beszélt] Also noun.'),
+  hu('para', 'scary, dodgy; also "worry" as a noun', ['adjective', 'noun'], 'Nincs para.', 'No worries.', '[beszélt] "Nincs para" is very high-frequency and useful.'),
+  hu('béna', 'clumsy, lame', ['adjective'], 'Béna mozdulat volt.', 'That was a lame move.', '[beszélt]'),
+  hu('uncsi', 'boring', ['adjective'], 'Ez az óra uncsi.', 'This class is boring.', '[beszélt]'),
+  hu('húzós', 'demanding, brutal (of a course, week, workout)', ['adjective'], 'Húzós volt a ZH.', 'The test was brutal.', '[beszélt]'),
+  hu('necces', 'dicey, touch and go', ['adjective'], 'Necces lesz, de meglesz.', 'It\'ll be dicey, but we\'ll manage.', '[beszélt]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: INTENSIFIERS & HEDGES
+  // ══════════════════════════════════════════════════════════
+  hu('full', 'very, totally (common under 30)', ['adverb'], 'Full necces.', 'Pretty dicey.', '[szleng]'),
+  hu('baromi / marha', 'bloody, damn (intensifier)', ['adverb'], 'Baromi fárasztó volt a nap.', 'The day was bloody exhausting.', '[beszélt]'),
+  hu('kb (kábé)', 'like, roughly (hedge)', ['adverb'], 'Kb két óra múlva érek oda.', 'I\'ll get there in like two hours.', '[beszélt] Spoken constantly, not just in writing.'),
+  hu('konkrétan', 'literally, used as an intensifier', ['adverb'], 'Konkrétan elaludtam az előadáson.', 'I literally fell asleep in the lecture.', '[beszélt]'),
+  hu('valszeg (valószínűleg)', 'probably (clipped)', ['adverb'], 'Valszeg ott leszek.', 'I\'ll probably be there.', '[beszélt]'),
+  hu('asszem (azt hiszem)', 'I think (clipped)', ['phrase'], 'Asszem holnap van.', 'I think it\'s tomorrow.', '[beszélt]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: STANCE PARTICLES
+  // ══════════════════════════════════════════════════════════
+  hu('amúgy', 'anyway, by the way (opens or pivots)', ['conjunction'], 'Amúgy mikor jössz?', 'By the way, when are you coming?', '[beszélt] Extremely frequent under 30. Written as "am" in texts.'),
+  hu('igazából', 'actually, really', ['adverb'], 'Igazából nem is tudom.', 'Actually I don\'t even know.', '[beszélt]'),
+  hu('nyilván', 'obviously (can be dry/sarcastic)', ['adverb'], 'Nyilván megint késik.', 'Obviously he\'s late again.', '[beszélt]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: INTERJECTIONS & BACKCHANNELS
+  // ══════════════════════════════════════════════════════════
+  hu('na ne!', 'no way!', ['phrase'], 'Na ne! Komolyan?', 'No way! Seriously?', '[beszélt] Surprise.'),
+  hu('ez szívás', 'that sucks', ['phrase'], 'Elkéstél a vizsgáról? Ez szívás.', 'You missed the exam? That sucks.', '[szleng]'),
+  hu('majd dumálunk', 'we\'ll talk (later) — a parting phrase', ['phrase'], 'Oké, majd dumálunk!', 'Okay, we\'ll talk later!', '[beszélt]'),
+
+  // ══════════════════════════════════════════════════════════
+  // HUNGARIAN — FIATAL: TRAPS & REGISTER NOTES
+  // ══════════════════════════════════════════════════════════
+  hu('izgatott', 'agitated, nervous — NOT "excited"', ['adjective'], 'Izgatott lett a vitától.', 'He got agitated from the argument.', 'CSAPDA: do not use for English "excited." Say "alig várom," "izgulok," or "pörgök rajta" instead.'),
+  hu('tetszik tudni...?', 'do you happen to know...? (deferential, warm form for elderly strangers)', ['phrase'], 'Tetszik tudni, merre van a posta?', 'Do you happen to know where the post office is?', '"Tetszikelés": deferential and warm, for elderly non-family (neighbour, shopkeeper) — not your own grandfather, who gets plain tegezés.'),
 
   // ══════════════════════════════════════════════════════════
   // FRENCH — CORE VERBS A2 (50)
