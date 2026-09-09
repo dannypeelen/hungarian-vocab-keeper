@@ -13,6 +13,12 @@ const LEGACY_KEY = 'vocab-keeper-cards';
 const LEGACY_STATS = 'vocab-keeper-stats';
 const CARD_KEY = (l: Language) => `vocab-keeper-cards-${l}`;
 const STAT_KEY = (l: Language) => `vocab-keeper-stats-${l}`;
+const SEED_VERSION_KEY = (l: Language) => `vocab-keeper-seed-version-${l}`;
+
+// Bump this whenever seed-data.ts changes (edits/removals to existing
+// cards, not just additions) so stored cards get replaced with the
+// latest seed content instead of silently keeping stale local copies.
+const SEED_VERSION = 1;
 
 function migrateIfNeeded() {
   if (typeof window === 'undefined') return;
@@ -41,10 +47,14 @@ function loadCards(lang: Language): VocabCard[] {
   if (typeof window === 'undefined') return [];
   const seedCards = SEED_CARDS.filter(c => c.language === lang);
   const raw = localStorage.getItem(CARD_KEY(lang));
-  if (!raw) {
+  const storedVersion = localStorage.getItem(SEED_VERSION_KEY(lang));
+
+  if (!raw || storedVersion !== String(SEED_VERSION)) {
     localStorage.setItem(CARD_KEY(lang), JSON.stringify(seedCards));
+    localStorage.setItem(SEED_VERSION_KEY(lang), String(SEED_VERSION));
     return seedCards;
   }
+
   const stored: VocabCard[] = JSON.parse(raw);
   const storedWords = new Set(stored.map(c => c.targetWord));
   const newCards = seedCards.filter(c => !storedWords.has(c.targetWord));
