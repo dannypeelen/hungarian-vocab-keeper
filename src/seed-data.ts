@@ -194,7 +194,6 @@ export const SEED_CARDS: VocabCard[] = [
   hu('kilátásba helyezni vmit', 'to hold out the prospect of something', ['vonzat', 'phrase'], 'Bérememelést helyeztek kilátásba.', 'They held out the prospect of a pay raise.'),
   hu('szóba jönni', 'to come into question / be a possibility', ['phrase', 'vonzat'], 'Ez a megoldás nem jöhet szóba.', 'This solution is out of the question.'),
   hu('napirendre kerülni', 'to be put on the agenda', ['phrase'], 'A kérdés napirendre került.', 'The question was put on the agenda.'),
-  hu('kézzel fogható', 'tangible / palpable', ['phrase', 'adjective'], 'Kézzel fogható eredményeket ért el.', 'She achieved tangible results.', 'Lit: graspable by hand'),
   hu('állást foglalni vmi mellett/ellen', 'to take a position for/against something', ['vonzat', 'phrase'], 'Nyíltan állást foglalt az ügyben.', 'He openly took a position on the matter.'),
   hu('felszínre kerülni', 'to come to the surface / to light', ['phrase', 'verb'], 'Új bizonyítékok kerültek felszínre.', 'New evidence came to light.'),
   hu('nyomást gyakorolni vkire', 'to exert pressure on someone', ['vonzat', 'phrase'], 'Nyomást gyakoroltak a kormányra.', 'They exerted pressure on the government.'),
@@ -287,13 +286,11 @@ export const SEED_CARDS: VocabCard[] = [
   hu('biztonság', 'safety / security', ['noun'], 'A gyerekek biztonsága az első.', 'The safety of the children comes first.'),
   hu('erő', 'strength / power / force', ['noun'], 'Összeszedte minden erejét.', 'She gathered all her strength.'),
   hu('gyengeség', 'weakness', ['noun'], 'Beismerni a gyengeségét bátorság.', 'Admitting weakness takes courage.'),
-  hu('egészség', 'health', ['noun'], 'Az egészség a legfontosabb.', 'Health is the most important thing.'),
   hu('betegség', 'illness / disease / sickness', ['noun'], 'Súlyos betegségből lábalt fel.', 'She recovered from a serious illness.'),
   hu('fájdalom', 'pain / ache / grief', ['noun'], 'A fájdalom elviselhető volt.', 'The pain was bearable.'),
   hu('öröm', 'joy / pleasure / delight', ['noun'], 'Öröm volt látni.', 'It was a joy to see him.'),
   hu('bánat', 'sorrow / grief / sadness', ['noun'], 'Bánat ülte meg az arcát.', 'Sorrow settled on her face.'),
   hu('szégyen', 'shame / embarrassment', ['noun'], 'Szégyennel töltötte el a vallomás.', 'The confession filled him with shame.'),
-  hu('büszkeség', 'pride', ['noun'], 'Nagy büszkeséggel töltötte el a siker.', 'The success filled her with great pride.'),
   hu('kapcsolat', 'relationship / connection / contact', ['noun'], 'Jó kapcsolatot ápol a szomszédaival.', 'He maintains a good relationship with his neighbors.'),
   hu('bizalom', 'trust / confidence', ['noun'], 'A bizalom megalapozza a jó együttműködést.', 'Trust forms the basis of good collaboration.'),
   hu('tisztelet', 'respect / honor', ['noun'], 'Kölcsönös tiszteleten alapul a barátságuk.', 'Their friendship is based on mutual respect.'),
@@ -301,7 +298,6 @@ export const SEED_CARDS: VocabCard[] = [
   hu('igazságosság', 'justice / fairness', ['noun'], 'Igazságosságot követelnek.', 'They demand justice.'),
   hu('távolság', 'distance', ['noun'], 'Nagy távolságra van egymástól.', 'They are far apart from each other.'),
   hu('súly', 'weight / gravity / burden', ['noun'], 'A döntés súlya nyomasztotta.', 'The weight of the decision weighed on him.'),
-  hu('hangulat', 'mood / atmosphere / vibe', ['noun'], 'Kellemes hangulat volt az összejövetelen.', 'There was a pleasant atmosphere at the gathering.'),
   hu('felelősség', 'responsibility', ['noun'], 'Nagy felelősséget vállalt magára.', 'He took on a great responsibility.'),
   hu('szándék', 'intention / intent', ['noun'], 'Jó szándékkal tette.', 'He did it with good intentions.'),
 
@@ -309,18 +305,11 @@ export const SEED_CARDS: VocabCard[] = [
   // HUNGARIAN NEW — ADJECTIVES (35 new)
   // ══════════════════════════════════════════════════════════
   hu('szorgalmas', 'hardworking / diligent', ['adjective'], 'Szorgalmas tanuló.', 'A hardworking student.'),
-  hu('lusta', 'lazy', ['adjective'], 'Ne légy lusta!', 'Don\'t be lazy!'),
   hu('bátor', 'brave / courageous', ['adjective'], 'Bátor döntés volt.', 'It was a brave decision.'),
   hu('gyáva', 'cowardly', ['adjective'], 'Gyáva visszalépés volt.', 'It was a cowardly retreat.'),
-  hu('okos', 'smart / clever / intelligent', ['adjective'], 'Okos megoldást talált.', 'She found a clever solution.'),
-  hu('buta', 'stupid / dumb / foolish', ['adjective'], 'Buta kérdés nincs.', 'There\'s no such thing as a stupid question.'),
-  hu('ügyes', 'skillful / deft / clever', ['adjective'], 'Ügyes a kezével.', 'He is skillful with his hands.'),
   hu('ügyetlen', 'clumsy / awkward', ['adjective'], 'Ügyetlen mozdulat volt.', 'It was a clumsy move.'),
   hu('figyelmes', 'attentive / considerate / thoughtful', ['adjective'], 'Figyelmes vendég volt.', 'He was a considerate guest.'),
   hu('figyelmetlen', 'inattentive / careless / inconsiderate', ['adjective'], 'Figyelmetlen hibák.', 'Careless mistakes.'),
-  hu('udvarias', 'polite / courteous', ['adjective'], 'Udvarias visszautasítás.', 'A polite refusal.'),
-  hu('udvariatlan', 'impolite / rude', ['adjective'], 'Udvariatlan viselkedés.', 'Rude behavior.'),
-  hu('kedves', 'kind / sweet / dear', ['adjective'], 'Kedves gesztus volt.', 'It was a kind gesture.'),
   hu('barátságos', 'friendly / amicable', ['adjective'], 'Barátságos fogadtatás.', 'A friendly reception.'),
   hu('ellenséges', 'hostile / unfriendly', ['adjective'], 'Ellenséges légkör.', 'A hostile atmosphere.'),
   hu('őszinte', 'honest / sincere', ['adjective'], 'Legyen őszinte hozzám!', 'Be honest with me!'),
@@ -332,7 +321,6 @@ export const SEED_CARDS: VocabCard[] = [
   hu('hanyag', 'negligent / sloppy / careless', ['adjective'], 'Hanyag munkavégzés.', 'Sloppy workmanship.'),
   hu('takarékos', 'frugal / thrifty', ['adjective'], 'Takarékos életmód.', 'A frugal lifestyle.'),
   hu('szerény', 'modest / humble', ['adjective'], 'Szerény ember maradt a siker ellenére.', 'He remained a modest person despite his success.'),
-  hu('büszke', 'proud', ['adjective'], 'Büszke az eredményeire.', 'She is proud of her achievements.'),
   hu('alázatos', 'humble / meek / submissive', ['adjective'], 'Alázatos hozzáállás.', 'A humble attitude.'),
   hu('arrogáns', 'arrogant', ['adjective'], 'Arrogáns viselkedés.', 'Arrogant behavior.'),
   hu('féltékeny', 'jealous (in a relationship)', ['adjective'], 'Féltékeny a barátjára.', 'She is jealous of her partner.', 'Specifically romantic jealousy'),
@@ -340,7 +328,6 @@ export const SEED_CARDS: VocabCard[] = [
   hu('nagylelkű', 'generous / magnanimous', ['adjective'], 'Nagylelkű ajánlat.', 'A generous offer.'),
   hu('fukar', 'stingy / miserly', ['adjective'], 'Fukar ember.', 'A stingy person.'),
   hu('vidám', 'cheerful / merry / jolly', ['adjective'], 'Vidám hangulat.', 'A cheerful mood.'),
-  hu('komoly', 'serious / grave / solemn', ['adjective'], 'Komoly kérdés.', 'A serious question.'),
   hu('derűs', 'serene / sunny / cheerful', ['adjective'], 'Derűs kilátás.', 'A serene outlook.'),
   hu('közvetlen', 'direct / informal / approachable', ['adjective'], 'Közvetlen stílus.', 'A direct, informal style.'),
 
@@ -541,7 +528,7 @@ export const SEED_CARDS: VocabCard[] = [
   hu('nagyvonalú', 'generous / magnanimous / broad-brush / grand', ['adjective'], 'Nagyvonalú gesztus volt a részéről.', 'It was a magnanimous gesture on his part.', 'Also: "broad-brush" when describing a non-detailed approach'),
   hu('alapos', 'thorough / in-depth / well-grounded', ['adjective'], 'Alapos vizsgálat nélkül nem lehet megalapozott ítéletet hozni.', 'Without a thorough examination, no well-founded verdict can be made.'),
   hu('felületes', 'superficial / cursory', ['adjective'], 'Felületes olvasatból téves következtetéseket vont le.', 'From a cursory reading, she drew incorrect conclusions.'),
-  hu('kézzelfogható', 'tangible / concrete / palpable', ['adjective'], 'Kézzelfogható eredmény nélkül az ígéretek üresek.', 'Without tangible results, promises are empty.'),
+  hu('kézzelfogható', 'tangible / palpable', ['adjective'], 'Kézzelfogható eredmény nélkül az ígéretek üresek.', 'Without tangible results, promises are empty.', 'Lit: graspable by hand'),
   hu('elvont', 'abstract / detached / removed from reality', ['adjective'], 'Az elvont fejtegetés elveszíti a nem szakmai olvasót.', 'The abstract exposition loses the non-specialist reader.'),
   hu('kifejező', 'expressive / eloquent / evocative', ['adjective'], 'Kifejező metaforával élt, ami azonnal megvilágította a problémát.', 'She used an evocative metaphor that immediately illuminated the problem.'),
   hu('visszafogott', 'restrained / understated / low-key', ['adjective'], 'Visszafogott stílusa ellenére a mondanivalója rendkívül erős.', 'Despite her restrained style, her message is extremely powerful.'),
@@ -560,8 +547,6 @@ export const SEED_CARDS: VocabCard[] = [
   // ══════════════════════════════════════════════════════════
   hu('hiszen', '"after all" / "because you see" / "but surely"', ['conjunction', 'adverb'], 'Hiszen ezt mindenki tudja.', 'After all, everyone knows this.', 'Implies the listener already knows or should concede the point. Softer than "mert". Very common in argument: "Hiszen ez nem más, mint..." = "After all, this is nothing but..."'),
   hu('mégiscsak', '"after all" / "come to think of it" / "it turns out"', ['adverb', 'phrase'], 'Mégiscsak igaza volt.', 'He was right after all.', 'Carries a note of mild surprise or concession — the outcome overturned expectations. Very Hungarian flavor.'),
-  hu('igazából', '"actually" / "to be honest" / "really" / "in truth"', ['adverb'], 'Igazából nem is értek egyet.', 'Actually, I don\'t agree.', 'The everyday spoken alternative to "valójában". Constant in podcasts. Like English "actually" used as a soft hedge or mild contradiction.'),
-  hu('amúgy', '"anyway" / "by the way" / "otherwise" / "as it happens"', ['adverb'], 'Amúgy mi a véleményed erről?', 'By the way, what\'s your take on this?', 'Colloquial and extremely common. Signals a topic shift, an aside, or "independent of what was just said". Partizán speakers use it constantly.'),
   hu('egyébként', '"by the way" / "anyway" / "incidentally" / "as it happens"', ['adverb'], 'Egyébként ez egy régi probléma.', 'Incidentally, this is an old problem.', 'Slightly more formal than "amúgy" but same function. Also means "otherwise/in other respects": "egyébként rendes ember" = "otherwise a decent person".'),
   hu('mondjuk', '"let\'s say" / "say" / "like" / hedging word in speech', ['adverb', 'phrase'], 'Mondjuk, ez nem a legjobb megoldás.', 'Well, let\'s say this isn\'t the best solution.', 'Used as a hedge or approximation marker — like English "like" or "say". "Mondjuk öt éve" = "say, five years ago". Constant in informal intellectual speech.'),
   hu('pláne', '"especially" / "all the more so" / "even more so"', ['adverb'], 'Ez nehéz, pláne ha nincs tapasztalatod.', 'This is difficult, especially if you have no experience.', 'Very colloquial, specifically Hungarian flavor. Intensifies a claim, often used after an already strong statement. "Pláne most" = "especially now".'),
@@ -625,9 +610,7 @@ export const SEED_CARDS: VocabCard[] = [
   hu('döcögős', 'bumpy / halting / jerky / stilted', ['adjective'], 'Döcögős előadás, de a tartalom megmentette.', 'A stilted presentation, but the content saved it.', 'Lit: from "döcög" (to jolt along); used for speech, processes, stories'),
   hu('csavaros', 'devious / convoluted / crafty / twisted', ['adjective'], 'Csavaros érvrendszer, amelyet nehéz követni.', 'A convoluted line of argument that is hard to follow.', 'More colloquial than "körmönfont"; can be admiring'),
   hu('kényszeres', 'compulsive / obsessive', ['adjective'], 'Kényszeres igazságkereső, soha nem adja fel.', 'A compulsive truth-seeker who never gives up.'),
-  hu('furcsa', 'strange / odd / weird / peculiar', ['adjective'], 'Furcsa érzés, de nem tudnám megmagyarázni.', 'A strange feeling, but I couldn\'t explain it.', 'One of the most basic and common adjectives — surprisingly absent until now'),
   hu('izgalmas', 'exciting / fascinating / thrilling', ['adjective'], 'Izgalmas kérdés, amelyre nincs egyszerű válasz.', 'A fascinating question with no easy answer.'),
-  hu('unalmas', 'boring / dull / tedious', ['adjective'], 'Unalmas vita, amelyből semmi sem következik.', 'A tedious debate that leads nowhere.'),
   hu('kapzsi', 'greedy / avaricious / grasping', ['adjective'], 'Kapzsi érdekek húzódnak a döntés mögött.', 'Greedy interests lie behind the decision.'),
 
   // ══════════════════════════════════════════════════════════
@@ -706,23 +689,18 @@ export const SEED_CARDS: VocabCard[] = [
   // HUNGARIAN — FIATAL: THINGS & PLACES
   // ══════════════════════════════════════════════════════════
   hu('cucc', 'stuff, things', ['noun'], 'Hozd a cuccaidat.', 'Bring your stuff.', '[beszélt]'),
-  hu('kaja', 'food', ['noun'], 'Van otthon kaja?', 'Is there food at home?', '[beszélt]'),
   hu('pia', 'booze, alcohol', ['noun'], 'Veszünk piát a bulira?', 'Should we buy booze for the party?', '[beszélt]'),
   hu('meló', 'work, job', ['noun'], 'Sok a melóm mostanában.', 'I have a lot of work lately.', '[beszélt]'),
-  hu('suli', 'school, uni', ['noun'], 'Most jövök a suliból.', 'I\'m just coming from uni.', '[beszélt] "-i clipping" of "iskola."'),
   hu('koli', 'dorm', ['noun'], 'A koliban lakom.', 'I live in the dorm.', '[beszélt] Clipped from "kollégium."'),
   hu('albi', 'rented flat', ['noun'], 'Albiban lakunk hárman.', 'The three of us live in a rented flat.', '[beszélt] Clipped from "albérlet."'),
   hu('zsé / lóvé', 'money', ['noun'], 'Nincs zsém.', 'I\'m broke.', '[szleng]'),
   hu('rugó', 'a thousand forints', ['noun'], 'Öt rugóba került.', 'It cost five thousand forints.', '[szleng] "öt rugó" = 5,000 Ft.'),
-  hu('buli', 'party', ['noun'], 'Jössz a bulira?', 'Are you coming to the party?', '[beszélt]'),
 
   // ══════════════════════════════════════════════════════════
   // HUNGARIAN — FIATAL: ADJECTIVES, POSITIVE
   // ══════════════════════════════════════════════════════════
   hu('jó fej', 'decent, sound, a good sort (of a person)', ['adjective', 'phrase'], 'Nagyon jó fej a tanárunk.', 'Our teacher is a really sound person.', '[beszélt] Evergreen, zero risk.'),
   hu('tök jó', 'really good', ['adjective', 'phrase'], 'Ez tök jó volt.', 'That was really good.', '[beszélt] The workhorse positive adjective.'),
-  hu('durva', 'intense, wild — works for both good and bad', ['adjective'], 'Ez durva.', 'That\'s intense.', '[beszélt] Context decides the valence.'),
-  hu('brutál / brutális', 'massive, insane (positive)', ['adjective'], 'Brutál jó volt.', 'It was insanely good.', '[beszélt/szleng]'),
   hu('tuti', 'certain, reliable, for sure', ['adjective', 'adverb'], 'Tuti, hogy jön.', 'He\'s definitely coming.', '[beszélt]'),
   hu('penge', 'sharp, excellent (of a person\'s skill)', ['adjective'], 'Penge vagy ebben!', 'You\'re sharp at this!', '[szleng]'),
   hu('állat', 'awesome (as adjective or interjection)', ['adjective'], 'Állat volt a koncert!', 'The concert was awesome!', '[szleng]'),
@@ -742,7 +720,6 @@ export const SEED_CARDS: VocabCard[] = [
   // ══════════════════════════════════════════════════════════
   hu('full', 'very, totally (common under 30)', ['adverb'], 'Full necces.', 'Pretty dicey.', '[szleng]'),
   hu('baromi / marha', 'bloody, damn (intensifier)', ['adverb'], 'Baromi fárasztó volt a nap.', 'The day was bloody exhausting.', '[beszélt]'),
-  hu('kb (kábé)', 'like, roughly (hedge)', ['adverb'], 'Kb két óra múlva érek oda.', 'I\'ll get there in like two hours.', '[beszélt] Spoken constantly, not just in writing.'),
   hu('konkrétan', 'literally, used as an intensifier', ['adverb'], 'Konkrétan elaludtam az előadáson.', 'I literally fell asleep in the lecture.', '[beszélt]'),
   hu('valszeg (valószínűleg)', 'probably (clipped)', ['adverb'], 'Valszeg ott leszek.', 'I\'ll probably be there.', '[beszélt]'),
   hu('asszem (azt hiszem)', 'I think (clipped)', ['phrase'], 'Asszem holnap van.', 'I think it\'s tomorrow.', '[beszélt]'),
@@ -750,9 +727,6 @@ export const SEED_CARDS: VocabCard[] = [
   // ══════════════════════════════════════════════════════════
   // HUNGARIAN — FIATAL: STANCE PARTICLES
   // ══════════════════════════════════════════════════════════
-  hu('amúgy', 'anyway, by the way (opens or pivots)', ['conjunction'], 'Amúgy mikor jössz?', 'By the way, when are you coming?', '[beszélt] Extremely frequent under 30. Written as "am" in texts.'),
-  hu('igazából', 'actually, really', ['adverb'], 'Igazából nem is tudom.', 'Actually I don\'t even know.', '[beszélt]'),
-  hu('nyilván', 'obviously (can be dry/sarcastic)', ['adverb'], 'Nyilván megint késik.', 'Obviously he\'s late again.', '[beszélt]'),
 
   // ══════════════════════════════════════════════════════════
   // HUNGARIAN — FIATAL: INTERJECTIONS & BACKCHANNELS
